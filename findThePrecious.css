@@ -1,0 +1,108 @@
+
+.nav-item:hover
+{
+	background: grey;
+}
+
+.navbar
+{
+	padding: 0.01vw 0 0.01vw 1vw;
+}
+
+.nav-item
+{
+	margin: 0 1vw 0 1vw;
+}
+
+.up
+{
+	margin: -3vw 0 0 2vw;
+	padding-bottom: 0.5vw;
+}
+
+.up2
+{
+	margin-left: 2vw;
+}
+
+.card
+{
+	padding: 0;
+	opacity: 0.8;
+	font-family: 'Arial', sans-serif;
+}
+
+.list 
+{
+  	list-style-type: none;
+}
+.reward, .dead 
+{
+ 	position: absolute;
+  	width: 92%;
+  	top: 0.4em;
+  	left: 50%;
+  	transform: translate(-50%);
+  	padding: 0.1em 0.2em 0.1em 0.2em;
+}
+
+.reward 
+{
+  	background-color: #fff;
+  	text-align: center;
+  	font-size: 2em;
+  	color: #000;
+  	border-radius: 10px;
+  	opacity: 0.8;
+  	transition: opacity 0.3s linear;
+}
+
+.dead 
+{
+	margin-top: 30%;
+  	color: #000;
+  	background-color: transparent;
+  	opacity: 1;
+  	font-size: 4em;
+  	transition: top 0.3s linear, font-size 0.3s linear;
+}
+
+.coins 
+{
+  	color: orange;
+}
+
+.name
+{
+  	position: absolute;
+  	width: 100%;
+  	left: 50%;
+  	margin-top: -45%;
+  	transform: translate(-50%);
+  	text-align: center;
+  	color: #fff;
+  	font-size: 3em;
+  	transition: margin-top 0.3s linear, font-size 0.3s linear;
+}
+
+.all:hover .reward
+{
+  	opacity: 0;
+}
+
+.all:hover .name
+{
+  	margin-top: -20%;
+  	font-size: 1.5em;
+}
+
+.all:hover .image, .card:hover  
+{
+  	opacity: 1;
+}
+
+.all:hover .dead
+{
+	top: 43%;
+	font-size: 1.5em;
+}
