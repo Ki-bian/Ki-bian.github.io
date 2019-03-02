@@ -16,13 +16,15 @@
 
 .up
 {
-	margin: -3vw 0 0 2vw;
+	margin: -6% 0 0 2vw;
 	padding-bottom: 0.5vw;
+	font-size: 2vw;
 }
 
 .up2
 {
 	margin-left: 2vw;
+	font-size: 1vw;
 }
 
 .card
